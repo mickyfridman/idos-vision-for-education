@@ -13,14 +13,11 @@ const AboutSection = () => {
               </div>
               <h2 className="text-3xl md:text-4xl font-display text-primary">אודות עידו</h2>
             </div>
-            <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+            <div className="space-y-4 text-md text-muted-foreground leading-relaxed">
               <p>
-                עידו רייס, בן קיבוץ להבות חביבה, גדל בכפר יונה וחווה על בשרו את כל הרבדים של מערכת החינוך הכפר-יונאית – מהגן ועד התיכון.
-              </p>
-              <p>
+                עידו רייס, בן קיבוץ להבות חביבה, גדל בכפר יונה וחווה על בשרו את כל הרבדים של מערכת החינוך הכפר-יונאית.<br/>
                 כבר מגיל צעיר בלט בכושר ההובלה הטבעי שלו: עוד בכיתה ב' המורים התייעצו איתו כיצד ללמד את הכיתה בצורה יעילה יותר.
-              </p>
-              <p>
+             
                 עידו תמיד נמשך לעולם החינוך וההדרכה, מתוך תשוקה עמוקה לגדל את הדורות הבאים ולהעצים אותם.
               </p>
             </div>
@@ -34,14 +31,12 @@ const AboutSection = () => {
               </div>
               <h2 className="text-3xl md:text-4xl font-display text-primary">רקע מקצועי</h2>
             </div>
-            <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+            <div className="space-y-4 text-md text-muted-foreground leading-relaxed">
               <p>
                 בעל ניסיון עשיר בניהול צוותי תוכנה בחברת Hailo ובתחומי אבטחה, טכנולוגיה אלחוטית ומערכות חכמות.
-              </p>
-              <p>
+              
                 רואה בהייטק לא רק קריירה, אלא מנוף חברתי אמיתי לשינוי ושיפור איכות החיים של כל שכבות החברה.
-              </p>
-              <p>
+              
                 מביא עמו חשיבה חדשנית, יכולת ארגון גבוהה ומיומנויות הדרכה וניהול – כישורים חיוניים להובלת מערכת חינוך קיבוצית מודרנית.
               </p>
             </div>

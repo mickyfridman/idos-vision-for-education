@@ -1,4 +1,4 @@
-import { Share2 } from "lucide-react";
+import { Send, Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
@@ -26,9 +26,8 @@ const CTASection = () => {
             size="lg"
             className="bg-[#1877F2] hover:bg-[#166FE5] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3 mx-auto"
           >
-            <Share2 className="w-5 h-5" />
-            שתף בפייסבוק
-          </Button>
+            <Send className="w-5 h-5" />
+שלחו לעידו הודעת תמיכה          </Button>
         </div>
       </div>
     </section>
