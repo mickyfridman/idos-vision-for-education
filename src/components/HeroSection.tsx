@@ -11,19 +11,40 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-6 py-20">
-        <div className="flex flex-col items-center text-center space-y-6">
-          <h1 
-            className="text-5xl md:text-7xl font-display text-wheat opacity-0 animate-fade-in-up"
-            style={{ animationDelay: "0.3s" }}
-          >
-            עידו רייס
-          </h1>
-          <p 
-            className="text-xl md:text-3xl text-wheat/80 font-light opacity-0 animate-fade-in-up"
-            style={{ animationDelay: "0.5s" }}
-          >
-            מועמד לתפקיד מנהלת החינוך הבאה של קיבוץ להבות חביבה
-          </p>
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+          {/* Image */}
+          <div className="flex-shrink-0 animate-scale-in" style={{ animationDelay: "0.2s" }}>
+            <div className="relative">
+              <div className="absolute -inset-4 bg-wheat/20 rounded-full blur-2xl" />
+              <img
+                src={idoImage}
+                alt="עידו רייס"
+                className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-wheat/30 shadow-earth"
+              />
+            </div>
+          </div>
+
+          {/* Content */}
+          <div className="text-center lg:text-right space-y-6">
+            <h1 
+              className="text-5xl md:text-7xl font-display text-wheat opacity-0 animate-fade-in-up"
+              style={{ animationDelay: "0.3s" }}
+            >
+              עידו רייס
+            </h1>
+            <p 
+              className="text-xl md:text-2xl text-wheat/80 font-light opacity-0 animate-fade-in-up"
+              style={{ animationDelay: "0.5s" }}
+            >
+              מועמד לתפקיד מנהלת החינוך
+            </p>
+            <p 
+              className="text-2xl md:text-3xl text-terracotta font-display opacity-0 animate-fade-in-up"
+              style={{ animationDelay: "0.7s" }}
+            >
+              קיבוץ להבות חביבה
+            </p>
+          </div>
         </div>
 
         {/* Scroll indicator */}
