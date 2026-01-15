@@ -2,12 +2,8 @@ import { Send, Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
-  const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
-  const shareText = "אני תומך/ת בעידו רייס לתפקיד מנהל החינוך בקיבוץ להבות חביבה! 🌱";
-
-  const handleFacebookShare = () => {
-    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
-    window.open(facebookUrl, '_blank', 'width=600,height=400');
+  const handleWhatsAppMessage = () => {
+    window.open('https://wa.me/972505922752?text=שלום%20עידו,%20אני%20רוצה%20לתמוך%20בך%20לתפקיד%20מנהלת%20החינוך', '_blank');
   };
 
   return (
@@ -22,7 +18,7 @@ const CTASection = () => {
           </p>
           
           <Button 
-            onClick={handleFacebookShare}
+            onClick={handleWhatsAppMessage}
             size="lg"
             className="bg-[#1877F2] hover:bg-[#166FE5] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3 mx-auto"
           >
