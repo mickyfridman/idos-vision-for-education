@@ -23,16 +23,10 @@ const HeroSection = () => {
             עידו רייס
           </h1>
           <p 
-            className="text-xl md:text-2xl text-wheat/80 font-light opacity-0 animate-fade-in-up"
+            className="text-xl md:text-3xl text-wheat/80 font-light opacity-0 animate-fade-in-up"
             style={{ animationDelay: "0.5s" }}
           >
-            מועמד לתפקיד מנהלת החינוך
-          </p>
-          <p 
-            className="text-2xl md:text-3xl text-terracotta font-display opacity-0 animate-fade-in-up"
-            style={{ animationDelay: "0.7s" }}
-          >
-            קיבוץ להבות חביבה
+            מועמד לתפקיד מנהלת החינוך הבאה של קיבוץ להבות חביבה
           </p>
         </div>
 
