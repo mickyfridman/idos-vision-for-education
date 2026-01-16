@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 py-20">
+      <div className="relative z-10 container mx-auto px-6 py-20 pb-28">
         <div className="flex flex-col items-center text-center space-y-6">
           <h1 
             className="text-5xl md:text-7xl font-display text-wheat opacity-0 animate-fade-in-up"
@@ -28,6 +28,21 @@ const HeroSection = () => {
           >
             מועמד לתפקיד מנהלת החינוך של קיבוץ להבות חביבה
           </p>
+
+          <div
+            className="w-full max-w-3xl mb-10 opacity-0 animate-fade-in-up"
+            style={{ animationDelay: "0.7s" }}
+          >
+            <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/qVjNA3WAXAs"
+                title="YouTube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          </div>
           
         </div>
 

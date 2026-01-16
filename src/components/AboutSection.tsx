@@ -16,7 +16,8 @@ const AboutSection = () => {
                   <img
                     src={idoImage}
                     alt="עידו רייס"
-                    className="relative w-40 h-40 md:w-48 md:h-48 object-cover rounded-full border-4 border-primary/30 shadow-earth"
+                    className="relative w-40 h-40 md:w-48 md:h-48 object-cover rounded-full border-4 border-primary/30 shadow-earth -scale-x-100"
+                    
                   />
                 </div>
               </div>
