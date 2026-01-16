@@ -24,11 +24,14 @@ const CTASection = () => {
           
            
 
-<a href="https://wa.me/972505922752?text=שלום%20עידו,%20אני%20רוצה%20לתמוך%20בך%20לתפקיד%20מנהלת%20החינוך" 
-         className="bg-[#1877F2] text-center hover:bg-[#166FE5] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3 mx-auto"
-         
-         target="_blank">
-שלחו לעידו הודעת תמיכה     <Send className="w-5 h-5" />  </a>
+<a 
+  href="https://wa.me/972505922752?text=שלום%20עידו,%20אני%20רוצה%20לתמוך%20בך%20לתפקיד%20מנהלת%20החינוך" 
+  className="bg-[#1877F2] hover:bg-[#166FE5] text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 inline-flex items-center justify-center gap-3"
+  target="_blank"
+>
+  <Send className="w-5 h-5" />
+  שלחו לעידו הודעת תמיכה
+</a>
 
         </div>
       </div>
