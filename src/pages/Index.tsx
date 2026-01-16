@@ -16,7 +16,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 bg-earth text-center">
         <p className="text-wheat/60 text-sm">
-          עידו רייס למנהל החינוך • להבות חביבה 2025
+          עידו רייס למנהלת החינוך • להבות חביבה 2025
         </p>
       </footer>
     </main>
