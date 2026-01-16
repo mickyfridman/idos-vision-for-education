@@ -2,20 +2,20 @@ import { Lightbulb, Laptop, Users, School, Sparkles } from "lucide-react";
 
 const visionPoints = [
   {
+    icon: School,
+    text: "אחריות וחירות – כל ילד לומד לקחת אחריות אישית תוך חירות יצירתית וביטוי עצמי",
+  },
+  {
     icon: Laptop,
-    text: "שילוב חכם ומבוקר של טכנולוגיה בחינוך",
+    text: "טכנולוגיה משלבת – שילוב חכם ומאוזן של דיגיטל וטכנולוגיה ככלי העצמה ולא כמטרה בפני עצמה",
   },
   {
     icon: Users,
-    text: "פיתוח תוכניות העצמה אישית וקבוצתית",
-  },
-  {
-    icon: School,
-    text: "חיזוק הקשר בין הגיל הרך, בית הספר והקהילה כולה",
+    text: "רוח קהילתית – חיזוק השייכות, הכבוד ההדדי והערבות ההדדית בין ילדים, משפחות וקהילה",
   },
   {
     icon: Sparkles,
-    text: "יצירת סביבה מעודדת יצירתיות, מנהיגות וחשיבה ביקורתית",
+    text: "חוסן – בניית חוסן רגשי, חברתי ולימודי שמכין את הילדים לעולם דינמי ומאתגר",
   },
 ];
 
@@ -29,8 +29,11 @@ const VisionSection = () => {
               <Lightbulb className="w-8 h-8 text-primary" />
             </div>
             <h2 className="text-3xl md:text-4xl font-display text-primary mb-6">חזון לתפקיד</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-4">
               עידו מאמין שתפקיד מנהל החינוך הוא להנגיש ידע, לעורר סקרנות ולתת לכל ילד וילדה בקיבוץ את הכלים למצות את הפוטנציאל האישי שלהם.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+              החזון של עידו מבוסס על ראשי תיבות <strong>אטר״ח</strong>:
             </p>
           </div>
 
